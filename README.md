@@ -32,7 +32,7 @@ El rol COORD -> Es el que se encargara de crear los usuarios y roles asociados a
 
 ```sql
     insert into usuarios(nombre, correo, password, id_rol) VALUES('Administrador', 'sergio.rios@gmail.com','$2y$12$FUq30sLT.dylLS4VJn8hCOL9Wp7m1aOAcOorIYxiRQsw5sIz4XtCK', 1)
-    -- La contraseña es: laura.norena@gmail.com
+    -- La contraseña es: sergio.rios@gmail.com
 ```
 
 # Descripción de rutas
@@ -63,4 +63,3 @@ El rol COORD -> Es el que se encargara de crear los usuarios y roles asociados a
 
 ### Docente
 - GET: api/docente - De la lista de usuarior registrados obtiene los que son de usuarios con rol de docente
-
